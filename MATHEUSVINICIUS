@@ -1,0 +1,41 @@
+#ETE Porto Digital
+#Aula 05/04
+#Matheus Vinícius
+class Pessoas:
+ def __init__(self, nome_completo, nome, idade, genero, cpf):
+   self.nome_completo = nome_completo
+   self.nome = nome
+   self.idade = idade
+   self.genero = genero
+   self.cpf = cpf
+
+maria = Pessoas('Maria dos Santos', 'Maria', '35', 'Feminino', '10842182403')
+print( maria.nome_completo + "\n" + maria.nome + "\n" + maria.idade + "\n" + maria.genero + "\n" + maria.cpf)
+
+#ETE Porto Digital
+#Aula 05/04
+#Matheus Vinícius
+class Estudante:
+ def __init__(self, nome_completo, nome, genero, curso, matricula):
+   self.nome_completo = nome_completo
+   self.nome = nome
+   self.genero = genero
+   self.curso = curso
+   self.matricula = matricula
+
+joao = Estudante('Joao dos Santos', 'Joao', 'Masculino', 'Desenvolvimento de Sistemas', '10842182403')
+print( joao.nome_completo + "\n" + joao.nome + "\n" + joao.genero + "\n" + joao.curso + "\n" + joao.matricula)
+
+#ETE Porto Digital
+#Aula 05/04
+#Matheus Vinícius
+class Estudante:
+ def __init__(self, nome_completo, nome, genero, curso, instituicao):
+   self.nome_completo = nome_completo
+   self.nome = nome
+   self.genero = genero
+   self.curso = curso
+   self.instituicao = instituicao
+
+cloves = Estudante('Cloves Rocha', 'Cloves', 'Masculino', 'Desenvolvimento de Sistemas', 'ETE Porto Digital')
+print( cloves.nome_completo + "\n" + cloves.nome + "\n" + cloves.genero + "\n" + cloves.curso + "\n" + cloves.instituicao)
